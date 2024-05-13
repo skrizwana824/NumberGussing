@@ -2,7 +2,7 @@ let secretnum = Math.floor(Math.random() * 100) + 1;
 const maxatt = 5;
 let attempts = 0;
 
-while (attempts < maxatt) {  // Changed from <= to <
+while (attempts < maxatt) { 
   let guess = parseInt(prompt("Guess a number between 1 and 100:"));
   attempts++;
 
